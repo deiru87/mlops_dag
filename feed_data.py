@@ -8,7 +8,6 @@ from airflow.operators.python import PythonOperator
 from datetime import datetime
 from sklearn.model_selection import train_test_split
 
-
 _data_filepath = ""
 
 def download_data():
